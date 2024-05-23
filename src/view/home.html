@@ -12,21 +12,36 @@
 <body>
     <header>
         <nav>
-            <i class="fa-solid fa-bars"></i>
-            <div class="logo">
-                <h1>LOGO</h1>
-            </div>
+            <div class="bars" id="togglerBars"><i class="fa-solid fa-bars"></i></div>
+            <img src="/Public/img/logo.png" alt="Logo-SweetHome" >
             <form class="search" action="" method="get">
                 <input class="inputSearch" type="text" name="" id="" placeholder="Buscar productos, marcas..." />
-                <button type="submit"><i class="fas fa-search"></i></button>
+                <button type="submit" class="search_nav"><i class="fas fa-search"></i></button>
             </form>
             <div class="nav_conteiner">
-                <i class="fa-solid fa-user"></i>
-                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-circle-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
         </nav>
     </header>
     <main>
+        <div class="category_container">
+            <i class="fa-solid fa-xmark" id="togglerXmark"></i>
+            <div class="category">
+                <h2>Categorias</h2>
+                <ul class="list-category">
+                    <li><a href="#">Home Office</a></li>
+                    <li><a href="#">Living</a></li>
+                    <li><a href="#">Dormitorio</a></li>
+                    <li><a href="#">Comedor</a></li>
+                </ul>
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
         <section class="slogan_container">
             <form class="search_main" action="" method="get">
                 <input class="inputSearch" type="text" name="" id="" placeholder="Buscar productos, marcas..." />
@@ -40,11 +55,11 @@
             <video muted autoplay loop>
                 <source src="/Public/img/0517 (2).mp4">
             </video>
-            <div class="backgrounVideo"></div>
+            <div class="backgroundVideo"></div>
         </section>
 
         <section class="offer">
-            <div class="container1">
+            <div class="offer_container">
                 <div class="slider">
 
                     <div class="slider_container">
@@ -53,7 +68,7 @@
                         </div>
                         <h3>10% OFF</h3>
                         <P>Por transferencia <br>
-                            bancaria o con débito
+                            o con débito
                         </P>
                     </div>
                     <div class="slider_container">
@@ -86,7 +101,7 @@
                         </div>
                         <h3>10% OFF</h3>
                         <P>Por transferencia <br>
-                            bancaria o con débito
+                            o con débito
                         </P>
                     </div>
                     <div class="slider_container">
@@ -112,10 +127,48 @@
                         <h3>Envios</h3>
                         <P>A todo el país</P>
                     </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards -->
+
+
+        <!-- Cards -->
+
+        <section class="about">
+            <h2>Acerca de nosotros</h2>
+            <div class="line"></div>
+            <div class="aboutUs">
+                <div class="aboutUs_container">
+                    <p>
+                        Somos una tienda dedicada a ofrecer muebles de diseño excepcional, fusionando estilo y calidad
+                        para
+                        transformar hogares en espacios de elegancia con materiales de primera calidad y atención al
+                        detalle, cada pieza está diseñada para perdurar en el tiempo, convirtiendo cada hogar en un
+                        reflejo
+                        del buen gusto.
+                    </p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3><a href="#">Donde encontrarnos</a></h3>
+                </div>
+                <div class="positionImg">
+                    <div class="img_container">
+                        <div class="img1"><img src="/Public/img/casa-londres-mapelli-comedor-2-1607684717 (1).jpg"
+                                alt="" width="50%"></div>
+                        <div class="img2"><img src="/Public/img/B0235 (1).jpg" alt="" width="50%"></div>
+                        <div class="img3"><img
+                                src="/Public/img/modern-living-room-illustration-ai-generative-free-photo (1).jpg"
+                                alt="" width="50%"></div>
+                    </div>
+                    <div class="capa"></div>
                 </div>
             </div>
         </section>
     </main>
+
+    <script src="/src/app.js"></script>
 </body>
 
 </html>
