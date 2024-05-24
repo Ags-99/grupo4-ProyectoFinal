@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Public/css/home.css">
+    <link rel="stylesheet" href="/Public/css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <title>ProyectoFinal</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="bars" id="togglerBars"><i class="fa-solid fa-bars"></i></div>
+            <img src="/Public/img/logo.png" alt="Logo-SweetHome">
+            <form class="search" action="" method="get">
+                <input class="inputSearch" type="text" name="" id="" placeholder="Buscar productos, marcas..." />
+                <button type="submit" class="search_nav"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="nav_conteiner">
+                <a href="../view/login.html"><i class="fa-solid fa-circle-user"></i></a>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="category_container">
+        <i class="fa-solid fa-xmark" id="togglerXmark"></i>
+        <div class="category">
+            <h2>Categorias</h2>
+            <ul class="list-category">
+                <li><a href="home.html">Home Office</a></li>
+                <li><a href="#">Living</a></li>
+                <li><a href="#">Dormitorio</a></li>
+                <li><a href="#">Comedor</a></li>
+            </ul>
+        </div>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <main>
+        <div class="container-form">
+            <div class="form-content">
+                <div class="form-left">
+                    <img src="/Public/img/icons8-usuario-64.png" alt="Imagen"/>
+                    <p class="textoBlanco">Iniciar Sesión</p>
+                </div>
+                <hr class="line-1">
+                <div class="form-right">
+                    <form>
+                        <div class="form-countryside">
+                            <label for="email">Usuario/Correo</label>
+                            <input type="email" id="email" placeholder="Correo Electrónico" />
+                        </div>
+                        <div class="form-countryside">
+                            <label for="password">Contraseña</label>
+                            <input type="password" id="password" placeholder="Contraseña" />
+                        </div>
+                        <button type="submit" class="button-get-into">Ingresar</button>
+                        <p class="question-password"><u>¿Has olvidado la contraseña?</u></p>
+                        <hr class="line-2">
+                        <button type="submit" class="button-register">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/src/app.js"></script>
+</body>
+</html>
