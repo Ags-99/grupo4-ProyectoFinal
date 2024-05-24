@@ -107,17 +107,20 @@ main{
     margin: 0 auto;
     text-transform: uppercase;
     font-size: 16px;
-    color: #ddd;
     font-weight: 600;
     border: none;
     padding: 20px 0 10px;
+}
+
+.button-register a{
+    color: #ddd;
+    text-decoration-line: none;
 }
 
 .line-2{
     margin-top: 10px;
     width: 85%;
     background-color: #ffffff;
-    /* border: 1px solid #ffffff49; */
 }
 
 .volver{

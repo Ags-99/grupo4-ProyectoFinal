@@ -1,0 +1,176 @@
+body{
+    background-image: url("../img/Img-login-fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding-bottom: 50px; */
+}
+main{
+    margin: 30px auto 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.container-register{
+    width: 100%;
+    max-width: 420px;
+    font-family: "Inter", sans-serif;
+}
+
+.register-content{
+    color: #fff;
+    margin: auto;
+}
+
+.register-left{
+    text-align: center;
+    padding: 10px 35px 25px;
+    font-size: 10px;
+}
+
+.register-left h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.register-right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-countryside{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 18px;
+}
+
+.register-countryside input{
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.register-countryside input::placeholder {
+    color: #929090;
+    font-weight: 400;
+}
+
+.register-countryside input:focus{
+    background-color: #fff;
+}
+
+.register-countryside label{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.button-create-account{
+    align-self: flex-end;
+    color: #fff;
+    background-color: #4f6f52;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px ;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 15px 0 0;
+}
+
+.question-account{
+    font-size: 12px;
+    padding: 15px 15px 0 0;
+    align-self: flex-end;
+}
+
+.log-in {
+    padding: 5px 35px 0 0;
+    align-self: flex-end;
+    text-decoration-line: none;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+@media (min-width: 560px){
+    .container-register{
+        min-width: 450px;
+        width: 60%;
+        max-width: 520px;
+    }
+
+    .register-left h1{
+        margin-top: 30px;
+        font-size: 28px;
+    }
+    .register-left p{
+        font-size: 14px;
+    }
+
+    .register-countryside label,
+    .register-countryside input {
+        font-size: 15px;
+    }
+
+    .register-countryside input{
+        margin-bottom: 10px;
+        height: 42px;
+    }
+    .button-create-account {
+        font-size: 15px;
+    }
+
+    .question-account,
+    .log-in {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px){
+    main{
+        margin-bottom: 50px;
+    }
+
+    .register-left h1{
+        margin-top: 70px;
+        font-size: 45px;
+    }
+    
+    .register-left p{
+        font-size: 18px;
+    }
+    .right-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .register-countryside {
+        padding: 12px 15px;
+        min-width: 400px;
+    }
+
+    .register-countryside label,
+    .register-countryside input {
+        font-size: 18px;
+    }
+
+    .button-create-account {
+        font-size: 18px;
+    }
+
+    .log-in {
+        align-self: flex-start;
+        font-size: 16px;
+        padding-left: 25px;
+    }
+    .question-account {
+        align-self: flex-start;
+        font-size: 16px;
+        margin-top: -55px;
+    }
+}
