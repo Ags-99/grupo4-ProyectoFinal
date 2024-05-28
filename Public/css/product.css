@@ -204,7 +204,11 @@ nav > a > img {
     transform: scale(1.1);
 }
 
-.cards_product>img {
+.cards_product > a{
+    width: 100%;
+}
+
+.cards_product > a > img {
     width: 100%;
 }
 
