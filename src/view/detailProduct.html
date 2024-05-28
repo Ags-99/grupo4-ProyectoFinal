@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Public/css/detailProduct.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <title>ProyectoFinal</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="bars" id="togglerBars"><i class="fa-solid fa-bars"></i></div>
+            <a href="/src/view/home.html"><img src="/Public/img/logo.png" alt="Logo-SweetHome"></a>
+            <form class="search" action="" method="get">
+                <input class="inputSearch" type="text" name="" id="" placeholder="Buscar productos, marcas..." />
+                <button type="submit" class="search_nav"><i class="fas fa-search"></i></button>
+            </form>
+            <div class="nav_conteiner">
+                <a href="../view/login.html"><i class="fa-solid fa-circle-user"></i></a>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="filter">
+            <span>CATEGORIA:</span> <SPan>Home office > </SPan><span>Escritorios</span>
+        </div>
+        <div class="detail_container">
+            <div class="detail_img">
+                <ul class="list_img">
+                    <li><img src="/Public/img/card1.png" alt=""></li>
+                    <li><img src="/Public/img/card1.png" alt=""></li>
+                    <li><img src="/Public/img/card1.png" alt=""></li>
+                </ul>
+                <img src="/Public/img/card1.png" alt="">
+            </div>
+            <div class="detail">
+                <h2 class="titleDetail">Escritorio Moderno</h2>
+                <div class="calificacion">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>5 valoraciones del articulo</span>
+                </div>
+                <div class="line"></div>
+                <form action="" method="get">
+                    <div class="row">
+                        <label for="color">Color:</label>
+                        <select id="color" name="color">
+                            <option value="negro">Negro</option>
+                            <option value="blanco">Blanco</option>
+                            <option value="marron">Marron</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="cantidad">Cantidad:</label>
+                        <input type="number" id="cantidad" name="cantidad" value="0">
+                    </div>
+                </form>
+                <div class="row">
+                    <label for="">Precio:</label>
+                    <span>$10000</span>
+                </div>
+                <div class="action">
+                    <button>Comprar ahora</button>
+                    <button>Agregar al carrito <i class="fa-sharp fa-solid fa-cart-shopping"></i></button>
+                </div>
+                <form action="delete" method="get" class="eliminar">
+                    <button type="submit">Eliminar </button>
+                </form>
+            </div>
+        </div>
+        <div class="line"></div>
+        <article>
+            ¿Por Qué Elegir Muebles Sweet Home? <br>
+            En Mueble Sweet Home, entendemos que tu hogar es más que un espacio; es un reflejo de tu estilo y
+            personalidad. Nuestros muebles están diseñados con una atención meticulosa al detalle y una calidad
+            excepcional que garantizan durabilidad y elegancia. Ofrecemos una amplia variedad de estilos, desde lo
+            moderno hasta lo clásico, asegurando que encuentres el mueble perfecto para cada rincón de tu casa.
+            Transforma tu hogar en un refugio de confort y estilo con Mueble Sweet Home. Porque mereces un hogar que
+            hable de ti.
+        </article>
+    </main>
+    <footer class="bg-dark">
+        <div class="footer">
+            <div class="container-footer">
+                <div class="footer-card">
+                    <div class="cards">
+                        <h4>Categorias</h4>
+                        <ul>
+                            <li><a href="#">Home Office</a></li>
+                            <li><a href="#">Living</a></li>
+                            <li><a href="#">Dormitorio</a></li>
+                            <li><a href="#">Comedor</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="footer-card card-half">
+                    <div class="cards">
+                        <h4>Información</h4>
+                        <ul>
+                            <li><a href="#">Quiénes somos</a></li>
+                            <li><a href="#">Medios de pago</a></li>
+                            <li><a href="#">Preguntas frecuentes</a></li>
+                            <li><a href="#">Politica</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-card card-right">
+                    <div class="cards">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="#">Av. Corrientes 2027, CABA</a></li>
+                            <li><a href="#">Tel: (+5411) 15-5555-0000</a></li>
+                            <li><a href="#">info@sweetHome.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <p class="footer-copyright">Copyright 2024 © Sweet Home. Todos los derechos Reservados.</p>
+    </footer>
+
+    <script src="/src/app.js"></script>
+</body>
+
+</html>

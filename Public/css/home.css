@@ -154,7 +154,7 @@ nav > img{
 }
 
 .inputSearch::placeholder {
-    padding: 15px;
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -804,7 +804,7 @@ footer > p{
 
 @media (min-width: 1024px) {
     nav {
-        padding: o 30px;
+        padding: 0 30px;
     }
 
     nav > img{
