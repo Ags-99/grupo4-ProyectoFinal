@@ -208,7 +208,13 @@ nav > img{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+
+.buttonRegister > a{
     color: #ffffff;
+    text-decoration: none;
+    list-style: none;
 }
 
 video {
