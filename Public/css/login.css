@@ -6,6 +6,15 @@ body{
     padding-bottom: 80px;
 }
 
+nav > a {
+    width: 20%;
+}
+
+nav > a > img {
+    width: 100%;
+}
+
+
 main{
     margin: 60px auto 0;
     justify-content: center;
@@ -205,6 +214,11 @@ main{
 }
 
 @media (min-width: 768px){
+
+    nav > a {
+        width: 15%;
+    }
+
     .line-1{
         display: flex;
     }
@@ -284,3 +298,9 @@ main{
     }
 }
 
+@media (min-width: 1024px){
+    nav>a {
+        width: 10%;
+        padding: 15px 0;
+    }
+}

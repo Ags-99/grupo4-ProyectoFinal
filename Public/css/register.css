@@ -10,6 +10,15 @@ main{
     display: flex;
 }
 
+nav > a {
+    width: 20%;
+}
+
+nav > a > img {
+    width: 100%;
+}
+
+
 .container-register{
     width: 100%;
     max-width: 420px;
@@ -153,6 +162,10 @@ main{
 
 @media (min-width: 768px){
 
+    nav > a {
+        width: 15%;
+    }
+
     .container-register{
         width: 100%;
         max-width: 1000px;
@@ -217,5 +230,12 @@ main{
     .question-account {
         font-size: 16px;
         margin-right: 40px;
+    }
+}
+
+@media (min-width: 1024px){
+        nav>a {
+        width: 10%;
+        padding: 15px 0;
     }
 }
