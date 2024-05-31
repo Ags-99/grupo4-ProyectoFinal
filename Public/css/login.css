@@ -1,0 +1,306 @@
+body{
+    background-image: url("../img/Img-login-fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 80px;
+}
+
+nav > a {
+    width: 20%;
+}
+
+nav > a > img {
+    width: 100%;
+}
+
+
+main{
+    margin: 60px auto 0;
+    justify-content: center;
+    display: flex;
+}
+
+.form-content {
+    font-family: "Inter", sans-serif;
+    margin: auto;
+    width: 90%;
+    border: 2px solid #fff;
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.form-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0 30px;
+}
+
+.form-left img{
+    width: 70px;
+    height: 70px;
+}
+
+.line-1{
+    display: none;
+}
+
+.textoBlanco,
+.question-password {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ddd;
+    text-align: center;
+}
+
+.form-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+.form-countryside {
+    min-width: 200ox;
+    width: 85%;
+    max-width: 315px;
+}
+.form-countryside label{
+    display: none;
+}
+
+
+.form-countryside input{
+    border-radius: 14px;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    color: #ddd;
+    height: 62%;
+    padding-left: 11px;
+    width: 100%;
+}
+
+.form-countryside input:focus{
+    height: 62%;
+    background-color: #ddd;    
+}
+
+.form-countryside input:focus::placeholder{
+    color: #6e6d6d;
+}
+
+.form-countryside input::placeholder {
+    color: #ddddddb9;
+    font-weight: 600;
+}
+
+.button-get-into {
+    display: flex;
+    justify-content: center;
+    background-color: #4f6f52;
+    margin: 5px auto 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+.button-register{
+    background-color: transparent;
+    display: flex;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 20px 0 10px;
+}
+
+.button-register a{
+    color: #ddd;
+    text-decoration-line: none;
+}
+
+.line-2{
+    margin-top: 10px;
+    width: 85%;
+    background-color: #ffffff;
+}
+
+.volver{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.volver a{
+    color: #ffffff;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+
+@media (min-width:320px){
+    main{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin-top: 10vh;
+    }
+    .container-form{
+        width: 100%;
+    }
+    
+    .form-content{
+        padding: 30px 5vw;
+        margin: auto;
+        min-width: 250px;
+        width: 75%;
+        max-width: 3800px;
+    }
+
+    .form-countryside{
+        height: 65px;
+    }
+}
+
+@media (min-width:560px){
+    .container-form{
+        width: 100%;
+    }
+    .form-content{
+        max-width: 500px;
+    }
+
+    .form-left img{
+        width: 90px;
+        height: 90px;
+    }
+    .textoBlanco {
+        font-size: 17px;
+    }
+    .form-countryside {
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .form-countryside input{
+        height: 40px;
+    }
+    .form-countryside input:focus{
+        height: 40px;
+    }
+    .form-countryside label{
+        padding: 10px 0;
+        display: flex;
+        color: #ffffff;
+    }
+
+    .button-get-into{
+        margin-top: 15px;
+    }
+
+    .question-password{
+        font-size: 16px;
+    }
+
+    .button-register{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 768px){
+
+    nav > a {
+        width: 15%;
+    }
+
+    .line-1{
+        display: flex;
+    }
+
+    .textoBlanco{
+        display: none;
+    }
+
+    .form-image{
+        max-width: 120px;
+        max-height: 120px;
+    }
+    .container-form{
+        margin-top: 65px;
+    }
+
+    .form-content{
+        display: flex;
+        min-width: 700px;
+        width: 90%;
+        max-width: 980px;
+        padding: 10px 0;
+    }
+    .form-content > div{
+        width: 100%;
+        display: flex;
+    }
+
+    .form-content .form-left{
+        width: 30%;
+        margin: auto;
+    }
+    .form-content .form-right{
+        max-width: 1000px;
+        width: 60%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .form-left img{
+        width: 110px;
+        height: 110px;
+    }
+
+    .form-right{
+        width: 100%;
+    }
+    .form-right form{
+        margin: 40px 0 15px;
+        width: 100%;
+    }
+
+    .form-countryside{
+        /* min-width: 315px; */
+        height: 60px;
+        width: 80%;
+        max-width: 800px;
+    }
+
+    .form-countryside label{
+        display: none;
+        font-size: 20PX;
+    }
+
+
+    .form-countryside input,
+    .form-countryside input:focus{
+        height: 85%;
+    }
+
+    .form-countryside input::placeholder{
+        font-size: 18px;
+    }
+
+    .button-get-into{
+        margin: 5px auto 15px;
+    }
+}
+
+@media (min-width: 1024px){
+    nav>a {
+        width: 10%;
+        padding: 15px 0;
+    }
+}

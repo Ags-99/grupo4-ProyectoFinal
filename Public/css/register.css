@@ -1,0 +1,241 @@
+body{
+    background-image: url("../img/Img-login-fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main{
+    margin: 30px auto 40px;
+    justify-content: center;
+    display: flex;
+}
+
+nav > a {
+    width: 20%;
+}
+
+nav > a > img {
+    width: 100%;
+}
+
+
+.container-register{
+    width: 100%;
+    max-width: 420px;
+    font-family: "Inter", sans-serif;
+}
+
+.register-content{
+    color: #fff;
+    margin: auto;
+}
+
+.register-left{
+    text-align: center;
+    padding: 10px 35px 25px;
+    font-size: 10px;
+}
+
+.register-left h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.register-right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-countryside{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 18px;
+}
+
+.register-countryside input{
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.register-countryside input::placeholder {
+    color: #929090;
+    font-weight: 400;
+}
+
+.register-countryside input:focus{
+    background-color: #fff;
+}
+
+.register-countryside label{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.bottom-form{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.bottom-form label{
+    width: 55%;
+    font-size: 12px;
+}
+
+.button-create-account{
+    align-self: flex-end;
+    color: #fff;
+    background-color: #4f6f52;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px ;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.question-account{
+    font-size: 12px;
+    padding: 15px 15px 0 0;
+    align-self: flex-end;
+}
+
+.log-in {
+    padding: 5px 35px 0 0;
+    align-self: flex-end;
+    text-decoration-line: none;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 560px){
+    .container-register{
+        min-width: 450px;
+        width: 60%;
+        max-width: 520px;
+    }
+
+    .register-left h1{
+        margin-top: 30px;
+        font-size: 28px;
+    }
+    .register-left p{
+        font-size: 14px;
+    }
+
+    .register-countryside label,
+    .register-countryside input {
+        font-size: 15px;
+    }
+
+    .register-countryside input{
+        margin-bottom: 10px;
+        height: 42px;
+    }
+    .button-create-account {
+        font-size: 15px;
+    }
+
+    .bottom-form label{
+        font-size: 14px;
+    }
+
+    .bottom-form .checkbox {
+        transform: scale(1.2);
+        margin-right: 6px;
+    }
+
+    .question-account,
+    .log-in {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px){
+
+    nav > a {
+        width: 15%;
+    }
+
+    .container-register{
+        width: 100%;
+        max-width: 1000px;
+    }
+    main{
+        margin-bottom: 50px;
+    }
+
+    .register-left h1{
+        margin-top: 70px;
+        font-size: 45px;
+    }
+    
+    .register-left p{
+        font-size: 18px;
+    }
+    .right-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 15px;        
+    }
+
+    .right-1,
+    .right-2{
+        width: 100%;
+    }
+
+    .register-countryside {
+        padding: 12px 15px;
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .register-countryside label,
+    .register-countryside input {
+        font-size: 18px;
+    }
+
+    .button-create-account {
+        font-size: 18px;
+    }
+
+    .bottom-form{
+        width: 100%;
+    }
+
+    .bottom-form label{
+        font-size: 16px;
+    }
+
+    .bottom-form .checkbox {
+        transform: scale(1.3);
+        margin-right: 6px;
+    }
+
+    .button-create-account{
+        margin-bottom: 10px;
+    }
+
+    .log-in,
+    .question-account {
+        font-size: 16px;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 1024px){
+        nav>a {
+        width: 10%;
+        padding: 15px 0;
+    }
+}
